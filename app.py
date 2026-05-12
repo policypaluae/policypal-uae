@@ -31,8 +31,7 @@ Format:
 1. Summary
 2. Key Points / Obligations
 3. Why It Matters
-4. Public Source Note
-"""
+4. Public Source Note"""
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
