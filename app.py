@@ -27,15 +27,10 @@ Always respond in this format:
 3. Why It Matters
 4. Public Source Note
 """
-Format:
-1. Summary
-2. Key Points / Obligations
-3. Why It Matters
-4. Public Source Note"""
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Hello, I’m PolicyPal UAE 🇦🇪\n\nSend me a legal or policy topic for a short executive briefing."
+        "Hello! How can I assist you today with information on UAE laws, public policies, or updates related to the UAE Aid Agency?"
     )
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
